@@ -12,12 +12,12 @@ public class DOTweenSecondClass : MonoBehaviour
     GameObject Image;
     [SerializeField]
     GameObject Text;
+    [SerializeField]
+    ScriptableObjectExample SOExample;
 
     bool doColorActivated = false;
     bool doFadeActivated = false;
     bool doFillAmountActivated = false;
-    bool doCounterActivated = false;
-    bool doTextActivated = false;
 
     public void ImageDoColor()
     {
@@ -63,7 +63,11 @@ public class DOTweenSecondClass : MonoBehaviour
 
     public void TextDoCounter()
     {
-        Text.GetComponent<Text>().DOCounter(0, 10, 10);
+        //if (SOExample.datas[1].count > 0)
+        if (GlobalSettingScriptableObject.Instance.datas[0].count > 2) 
+        {
+            Text.GetComponent<Text>().DOCounter(0, 10, 10);
+        }
     }
 
     Tween tr;

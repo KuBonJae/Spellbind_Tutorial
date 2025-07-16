@@ -2937,6 +2937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Image: {fileID: 108453740}
   Text: {fileID: 1584620609}
+  SOExample: {fileID: 11400000, guid: 6bba406521bc2bb4db0063819c9b58e9, type: 2}
 --- !u!1 &1426123644
 GameObject:
   m_ObjectHideFlags: 0

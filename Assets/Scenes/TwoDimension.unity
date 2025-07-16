@@ -1314,6 +1314,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 820faa5a-326b-4e71-b077-c9ce87a62a31
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b0766c79-379e-43be-bfb2-5d9b3379ac08
+    m_ActionName: Player/Look_Touch
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
