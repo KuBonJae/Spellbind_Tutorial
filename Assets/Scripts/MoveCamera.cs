@@ -40,7 +40,7 @@ public class MoveCamera : MonoBehaviour
             else if (input.y > Screen.height * 0.75f && input.x > Screen.width * 0.25f && input.x < Screen.width * 0.75f)
                 mainCamera.transform.position += new Vector3(0f, -1f, 0f);
 
-            Debug.Log(input.x + " / " + input.y);
+            //Debug.Log(input.x + " / " + input.y);
         }
     }
 
