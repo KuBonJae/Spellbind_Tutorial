@@ -82,6 +82,6 @@ public class DOTweenSecondClass : MonoBehaviour
         //Debug.Log(Text.GetComponent<Text>().DOKill());
         
         // TextMeshProUGUI는 pro 버전에서 사용할 것
-        //Text.GetComponent<TextMeshProUGUI>().GetComponent<Text>().DOText("DoTextComplete", 2f);
+        //Text.GetComponent<TextMeshProUGUI>().DOText("DoTextComplete", 2f);
     }
 }
