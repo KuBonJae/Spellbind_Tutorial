@@ -19,6 +19,12 @@ public class MoveAnimation : MonoBehaviour
             animator.SetFloat("MoveSpeed", 1f);
         else
             animator.SetFloat("MoveSpeed", 0f);
-            
+
+        if (animator.GetLayerWeight(2) < 1f)
+        {
+            //animator.SetLayerWeight(0, animator.GetLayerWeight(0) - 0.06f);
+            animator.SetLayerWeight(2, animator.GetLayerWeight(2) + 0.06f);
+        }
+
     }
 }
